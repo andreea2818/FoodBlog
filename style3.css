@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-image: url('m2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Cormorant Garamond', cursive;
+}
+
+
+div.d {
+  text-align: left;
+	font-family: 'Pacifico', cursive;
+  color: #ff3333;
+	font-size: 3rem;
+	margin: 0.2em 0.2em;
+}
+
+div.g {
+  text-align: left;
+	font-family: 'Pacifico', cursive;
+  color: black;
+	font-size: 2rem;
+	margin: 0.2em 0.2em;
+}
+
+img {
+  border-radius: 8px;
+}

@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Cormorant Garamond', cursive;
+}
+
+div.c {
+  text-align: center;
+	font-family: 'Pacifico', cursive;
+  color: #008000;
+	font-size: 1rem;
+	margin: 0.2em 0.2em;
+}
+
+div.d {
+  text-align: left;
+	font-family: 'Pacifico', cursive;
+  color: #008000;
+	font-size: 1rem;
+	margin: 0.2em 0.2em;
+}
+
+div.e {
+	font-family: 'Pacifico', cursive;
+  color: white;
+	font-size: 1rem;
+	margin: 0.5em 0.2em;
+}
+
+div.f {
+	font-family: 'Pacifico', cursive;
+  color: black;
+	font-size: 1rem;
+	margin: 1em 1em;
+	text-align: left;
+}
+
+img {
+  border-radius: 8px;
+}
+
+header h2 {
+	font-family: 'Pacifico', cursive;
+  color: #E36E91;
+	font-size: 3rem;
+	margin: 0.5em 0.2em;
+}
+
+header h3 {
+	font-family: 'Pacifico', cursive;
+  color: black;
+	font-size: 3rem;
+	margin: 0.5em 0.2em;
+}
+
+.center {
+  margin: auto;
+  width: 15%;
+  padding: 50px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-image: url('cc.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50% 100%;
+}
+
+.right {
+  right: 0;
+ 	background-image: url('c.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
